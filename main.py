@@ -1,5 +1,6 @@
 # Code for Linear Algebra Group Project
-# April 2020
+# Group name: (ノಠ益ಠ)ノ彡┻━┻
+# Date: April 2020
 
 """ NOT RELEVANT TO LINEAR ALGEBRA, IGNORE THIS """
 from numpy import array, round
@@ -74,7 +75,7 @@ if __name__ == "__main__":
     print_matrix(translate(tetrahedron, array([3.2, 0.0, -11.8])))
 
     print("\nThe original tetrahedron, rotated by PI/2 radians around its center: ")
-    print_matrix(rotate_around_point(tetrahedron, array([0.5, 0.5, 0.0]), theta=pi/2))
+    print_matrix(rotate_around_point(tetrahedron, array([0.5, 0.5, 0.5]), theta=pi/2))
 
 ###############################################################################
 #                              CODE ENDS HERE                                 #
